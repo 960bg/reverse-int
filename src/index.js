@@ -1,12 +1,11 @@
 module.exports = function reverse(n) {
   let num = Math.abs(n);
-  num = ('' + num).split('').reverse().join('');
-  // 
-  return num;
+  return ('' + num).split('').reverse().join('');
+
+
 
 
 
 }
 
 
-// console.log(reverse(-526));
